@@ -89,24 +89,3 @@ def generate_sentence(N: int = 20, first_word: str = "start-of-sentence", select
 for _ in range(12):
     print(generate_sentence())
 
-
-"""
-We are extracting English grammar knowledge
-
-We are extracting black holes knowledge
-
-We are not getting enough context only the previous word !
-
---------- after analysing results
-
-we are getting non sensical sentences.
-
-we might get stuck in repetitive words loop even with random
-
----------- introduce randomness 
-
-Avoids loops and words
-
-
------------ trying 3-gram
-"""
